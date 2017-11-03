@@ -38,14 +38,14 @@ ext {
   leakCanaryVersion = '1.5.4'
 
   presentationDependencies = [
-      daggerCompiler:         "com.google.dagger:dagger-compiler:${daggerVersion}",
-      dagger:                 "com.google.dagger:dagger:${daggerVersion}",
-      butterKnife:            "com.jakewharton:butterknife:${butterKnifeVersion}",
-      butterknifeProcessor:   "com.jakewharton:butterknife-compiler:${butterKnifeVersion}",
-      recyclerView:           "com.android.support:recyclerview-v7:${recyclerViewVersion}",
-      rxJava:                 "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
-      rxAndroid:              "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",
-      javaxAnnotation:        "javax.annotation:jsr250-api:${javaxAnnotationVersion}"
+      daggerCompiler:     "com.google.dagger:dagger-compiler:${daggerVersion}",
+      dagger:             "com.google.dagger:dagger:${daggerVersion}",
+      butterKnife:        "com.jakewharton:butterknife:${butterKnifeVersion}",
+      butterknifeCompiler:"com.jakewharton:butterknife-compiler:${butterKnifeVersion}",
+      recyclerView:       "com.android.support:recyclerview-v7:${recyclerViewVersion}",
+      rxJava:             "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
+      rxAndroid:          "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",
+      javaxAnnotation:    "javax.annotation:jsr250-api:${javaxAnnotationVersion}"
   ]
 
   presentationTestDependencies = [

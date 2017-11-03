@@ -64,10 +64,10 @@ dependencies {
   compile project(':domain')
   compile project(':data')
 
-  apt presentationDependencies.daggerCompiler
   compile presentationDependencies.dagger
+  annotationProcessor presentationDependencies.daggerCompiler
   compile presentationDependencies.butterKnife
-  annotationProcessor presentationDependencies.butterknifeProcessor
+  annotationProcessor presentationDependencies.butterknifeCompiler
   compile presentationDependencies.recyclerView
   compile presentationDependencies.rxJava
   compile presentationDependencies.rxAndroid
